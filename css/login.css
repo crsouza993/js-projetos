@@ -1,9 +1,9 @@
-.login-form {
-    align-items: center;
+.login-form {  /* */ 
+    align-items: center; /* centralizar no centro */ 
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    justify-content: center;
+    height: 100vh; /* ocupar a altura da tela */ 
+    justify-content: center; /* centralizado  */ 
   }
   
   .login__header {
@@ -11,34 +11,34 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 50px; /* espaços da imagem */ 
   }
   
-  .login__header img {
+  .login__header img {  /* mexer no tamanho da imagem*/ 
     width: 250px;
   }
   
   
   
-  .login__header h1 {
-    color: #333;
+  .login__header h1 { 
+    color: rgb(156, 51, 216);
     font-size: 1.5em;
   }
   
-  .login__input {
+  .login__input { /* caixa do input logiin*/ 
     border: 2px solid #333;
     border-radius: 8px;
     color: #333;
     font-size: 1em;
     margin-bottom: 15px;
-    max-width: 300px;
+    max-width: 300px; /* chegar a 300%*/ 
     outline: none;
     padding: 15px;
     width: 100%;
   }
   
-  .login__button {
-    background-color: #00b5cc;
+  .login__button { /* botao */ 
+    background-color: #e871f3;
     border: 3px solid #b2df28;
     border-radius: 8px;
     color: #fff;

@@ -25,7 +25,7 @@ main {
   
   .grid {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(7, 1fr); /*  definir as colunas */ 
     gap: 15px;
     width: 100%;
     max-width: 1200px;
@@ -33,8 +33,8 @@ main {
   }
   
   .card {
-    aspect-ratio: 3/4;
-    width: 100%;
+    aspect-ratio: 3/4;  /* definir a proporção, manter tamnho da tela, independete da largura mantem a proporção  */ 
+    width: 100%;         
     border-radius: 5px;
     position: relative;
     transition: all 400ms ease;
