@@ -1,5 +1,2 @@
 # js-projetos
-Projeto utilizando JavaScript
-# projeto teste
-testando 
-
+#Memory Game em JavaScript 
